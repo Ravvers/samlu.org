@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RNG-sus</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id='background'>
+        <header>
+            <h1>Random Number Generator</h1>
+            <h2>With Sam "RNG-sus" Lu</h2>
+        </header>
+        <nav>
+            <ul>
+                <li class='menuItem'><a href='index.htm'>Single Number Generator</a></li>
+                <li class='menuItem'><a href='mng.htm'>Multi-Number Generator</a></li>
+                <li class='menuItem'><a href='changelog.htm'>Changelog</a></li>
+            </ul>
+        </nav>
+        <h2>Single Number Generator</h2>
+        <form>
+            <div id="form">
+                <label for="start">From (inclusive):</label><input id="start" type="number" name="start"
+                    placeholder="starting" value=1 />
+                <br><br>
+                <label for="end">Until (inclusive):</label><input id="end" type="number" name="end" placeholder="ending"
+                    value=100 />
+                <br><br>
+            </div>
+            <div>
+                <input id="button" type="button" name="generate" value="Generate!" onclick="random()">
+            </div>
+        </form>
+        <br>
+        <p id="randomlyGenerated"></p>
+    </div>
+    <footer id="version"></footer>
+    <script src="random.js" async></script>
+</body>
+
+</html>

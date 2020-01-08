@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: #87B37A;
+    color: #4C2C72;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(95, 49, 151);
+}
+
+#background {
+    background-color: #77867F;
+    width: 500px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    color: #4C2C72;
+    background-color: #87B37A;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+}
+
+#form {
+    text-align: justify;
+    display: inline-block;
+}
+
+footer {
+    font-size: 15px;
+}
