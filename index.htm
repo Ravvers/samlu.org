@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>RNG-sus</title>
+    <title>RNGesus - SNG</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
@@ -22,24 +22,19 @@
         <![endif]-->
     <div id='background'>
         <header>
-            <h1>Random Number Generator</h1>
-            <h2>With Sam "RNG-sus" Lu</h2>
+            <h1 id="title"></h1>
+            <h3 id="subtitle"></h3>
         </header>
-        <nav>
-            <ul>
-                <li class='menuItem'><a href='index.htm'>Single Number Generator</a></li>
-                <li class='menuItem'><a href='mng.htm'>Multi-Number Generator</a></li>
-                <li class='menuItem'><a href='changelog.htm'>Changelog</a></li>
-            </ul>
+        <nav id='nav'>
         </nav>
-        <h2>Single Number Generator</h2>
+        <h2 id="currentPage">Single Number Generator</h2>
         <form>
             <div id="form">
-                <label for="start">From (inclusive):</label><input id="start" type="number" name="start"
-                    placeholder="starting" value=1 />
+                <label class='textLabel' for="start">From (inclusive):</label><input class='textInput' id="start"
+                    type="number" name="start" placeholder="starting" value=1 />
                 <br><br>
-                <label for="end">Until (inclusive):</label><input id="end" type="number" name="end" placeholder="ending"
-                    value=100 />
+                <label class='textLabel' for="end">Until (inclusive):</label><input class='textInput' id="end"
+                    type="number" name="end" placeholder="ending" value=100 />
                 <br><br>
             </div>
             <div>
@@ -49,7 +44,9 @@
         <br>
         <p id="randomlyGenerated"></p>
     </div>
-    <footer id="version"></footer>
+    <div>
+        <footer id="version"></footer>
+    </div>
     <script src="random.js" async></script>
 </body>
 
