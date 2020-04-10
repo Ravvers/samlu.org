@@ -1,0 +1,4 @@
+
+-> Put generator options into clickable box (make it more noticeable)
+
+-> Colourscheme??
