@@ -1,4 +1,4 @@
-const version = `Version 1.2.1 <br><a class='link' href='changelog.htm'>Changelog</a>`;
+const version = `Version 1.2.2 <br><a class='link' href='changelog.htm'>Changelog</a>`;
 const title = 'Random Number Generator';
 const subtitle = 'With Sam "RNGesus" Lu';
 
