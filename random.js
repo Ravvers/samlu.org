@@ -32,7 +32,7 @@ function displayFrame() {
 </ul>`;
     document.getElementById(
       'version'
-    ).innerHTML = `Version 1.2.1 <br><a id='currentPageDisplay' class='link' href='changelog.htm'>Changelog</a>`;
+    ).innerHTML = `Version 1.2.2 <br><a id='currentPageDisplay' class='link' href='changelog.htm'>Changelog</a>`;
   }
   nav.innerHTML = navHTML;
 }
