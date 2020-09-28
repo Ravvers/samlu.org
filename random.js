@@ -1,4 +1,4 @@
-const version = `Version 1.2.2 <br><a class='link' href='changelog.htm'>Changelog</a>`;
+const version = `Version 1.2.2 <br><a class='link' href='changelog.html'>Changelog</a>`;
 const title = 'Random Number Generator';
 const subtitle = 'With Sam "RNGesus" Lu';
 
@@ -17,22 +17,22 @@ function displayFrame() {
   const currentPage = document.getElementById('currentPage').innerText;
   if (currentPage === 'Single Number Generator') {
     navHTML = `<h2 id='navTitle'>Generators</h2><ul>
-<li id='currentPageDisplay' class='menuItem'><a class='link' href='index.htm'>Single Number</a></li>
-<li class='menuItem'><a class='link' href='mng.htm'>Multi-Number</a></li>
+<li id='currentPageDisplay' class='menuItem'><a class='link' href='index.html'>Single Number</a></li>
+<li class='menuItem'><a class='link' href='mng.html'>Multi-Number</a></li>
 </ul>`;
   } else if (currentPage === 'Multi-Number Generator') {
     navHTML = `<h2 id='navTitle'>Generators</h2><ul>
-<li class='menuItem'><a class='link' href='index.htm'>Single Number</a></li>
-<li id='currentPageDisplay' class='menuItem'><a class='link' href='mng.htm'>Multi-Number</a></li>
+<li class='menuItem'><a class='link' href='index.html'>Single Number</a></li>
+<li id='currentPageDisplay' class='menuItem'><a class='link' href='mng.html'>Multi-Number</a></li>
 </ul>`;
   } else {
     navHTML = `<h2 id='navTitle'>Generators</h2><ul>
-<li class='menuItem'><a class='link' href='index.htm'>Single Number</a></li>
-<li class='menuItem'><a class='link' href='mng.htm'>Multi-Number</a></li>
+<li class='menuItem'><a class='link' href='index.html'>Single Number</a></li>
+<li class='menuItem'><a class='link' href='mng.html'>Multi-Number</a></li>
 </ul>`;
     document.getElementById(
       'version'
-    ).innerHTML = `Version 1.2.2 <br><a id='currentPageDisplay' class='link' href='changelog.htm'>Changelog</a>`;
+    ).innerHTML = `Version 1.2.2 <br><a id='currentPageDisplay' class='link' href='changelog.html'>Changelog</a>`;
   }
   nav.innerHTML = navHTML;
 }
